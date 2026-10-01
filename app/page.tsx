@@ -16,9 +16,19 @@ export default function Home() {
         Get early access →
       </Link>
       <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
+        Add ideas together. Let the app decide.
       </p>
+      <div className="flex gap-3 text-sm">
+        <span className="rounded-full border border-black/10 px-3 py-1">
+          🍜 Eat
+        </span>
+        <span className="rounded-full border border-black/10 px-3 py-1">
+          🧗 Fun
+        </span>
+        <span className="rounded-full border border-black/10 px-3 py-1">
+          🍿 Watch
+        </span>
+      </div>
     </section>
   );
 }

@@ -4,22 +4,36 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "What to do",
+  description:
+    "It's an app that lets you add activities like eat so you can add restaurants, fun so you can add climbing parks, things to watch so you can add movies or series, so you and your partner or friends add to the list and the app will decide.",
+  emoji: "🎲",
+  accent: "#f43f5e",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Activity categories",
+      description: "Create categories like Eat, Fun and Watch.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Add ideas",
+      description:
+        "Save restaurants, climbing parks, movies or series to a category.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Shared lists",
+      description: "Invite your partner or friends to add to the same list.",
+    },
+    {
+      title: "Decide for us",
+      description: "Let the app pick a random idea from a category.",
+    },
+    {
+      title: "Veto and re-roll",
+      description: "Skip a pick you don't like and draw again.",
+    },
+    {
+      title: "Decision history",
+      description: "See past picks so you can avoid repeats.",
     },
   ] satisfies Feature[],
 };
